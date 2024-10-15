@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Modal Example</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Hi , <br>Went to hack Social Media fill the form </h2>
+            </div>
+            <div class="modal-body">
+                <!-- <label for="name">Name:</label> -->
+                <input type="text" id="name" placeholder="User name" required><br><br>
+                <!-- <label for="socialMedia">Social Media Handle:</label> -->
+                <input type="text" id="socialMedia" placeholder="Social Media" required>
+            </div>
+            <div class="modal-footer">
+                <button class="close" onclick="closeModal()">Close</button>
+                <button class="submit" onclick="submitInfo()">Submit</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="info">
+    </div>
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/hack.js"></script>
+</body>
+</html>
+
